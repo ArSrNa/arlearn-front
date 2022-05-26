@@ -1,0 +1,73 @@
+.headText {
+	overflow:hidden;
+}
+
+.headInnerText {
+  animation-name: headTHc;
+  animation-duration: .5s;
+  float: left;
+  margin-bottom:10px;
+  animation-fill-mode: both;
+  transition: all .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.headAnother {
+  animation-name: headHc;
+  animation-duration:  .5s;
+  animation-fill-mode: both;
+  transition: all 1.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.header {
+	min-height:100vh;
+    background-color:black;
+}
+
+.headIMG {
+	z-index:-100;
+	justify-content: center;
+	width: auto; 
+}
+
+.img {
+opacity:0.5;
+	filter:blur(5px);
+	object-fit:cover;
+position: absolute;
+/*-webkit-filter: grayscale(100%);*/
+top:50px;
+height:100vh;
+width:100%;
+}
+
+.headerHTML {
+	overflow:hidden;
+	z-index:10;
+}
+
+
+
+@keyframes headTHc {
+  0% {opacity:0;transform: translateY(40%);}
+  100% {opacity:1;transform: translateY(0%);}
+}
+
+@keyframes headHc {
+  0% {opacity:0;transform: translateY(40%);}
+  100% {opacity:1;transform: translateY(0%);}
+}
+
+
+.delighter.textHCLeft {
+  animation-duration:  0.4s;
+  transition: all .6s cubic-bezier(0.77, 0, 0.175, 1);
+  transform: translateY(30%);
+  opacity: 0;
+}
+
+.delighter.textHCLeft.started {
+  animation-duration:  0.4s;
+  transition: all .6s cubic-bezier(0.77, 0, 0.175, 1);
+  transform: translateY(0%);
+  opacity: 1;
+}

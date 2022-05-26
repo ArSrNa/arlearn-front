@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ar-Sr-Na Learn</title>
+    <!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.arsrna.cn/css/default.css" id="theme-color" /> 
+  <link rel="stylesheet" href="css/arpre.css" /> 
+  <link rel="stylesheet" href="https://www.arsrna.cn/css/font-awesome.css" type="text/css" /> 
+  <link rel="stylesheet" href="https://www.arsrna.cn/css/ar-animation.css" type="text/css" />
+  <script src="https://www.arsrna.cn/js/delighters.js"></script>
+</head>
+
+<body>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Ar-Sr-Na</a>
+    </nav>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.js"></script><script src="https://www.arsrna.cn/plug-in/layer/layer.js"></script>
+<script>
+function urllayer(title,url) {
+let width = document.body.clientWidth;
+if(width <= 800) {
+	window.yuukiAsuna = ['100%','100%'];
+	console.log("mobile");
+} else {
+	window.yuukiAsuna = ['80%','70%'];
+	console.log("computer");
+}
+
+layer.open({
+  type: 2,
+  shade: 0,
+  title: title,
+  content: url,
+maxmin: true,
+area: yuukiAsuna,
+
+
+btn: ['新标签页打开'],
+  yes: function(index, layero){
+   window.open(url);
+  }
+});
+}
+
+function communication() {
+layer.open({
+  type: 2,
+  title: "Ar-Sr-Na联系方式",
+  content: "https://www.arsrna.cn/communication/",
+maxmin: true,
+area: ['80%', '70%'],
+btn: ['新标签页打开'],
+  yes: function(index, layero){
+   window.open('https://www.arsrna.cn/communication/');
+  }
+});
+}
+	</script>
+
+
+<section class="bg-hero" style="background-image: url(https://www.arsrna.cn/images/DSC08095_cop.jpg);min-height: 100vh;">
+    <div class="container" style="padding-top: 40vh">
+<h1 class="text-white display-3 headerHTML">
+    <span class="headInnerText">Ar</span>
+    <span class="headInnerText">-</span>
+    <span class="headInnerText">Sr</span>
+    <span class="headInnerText">-</span>
+    <span class="headInnerText">Na&nbsp;</span>
+    <span class="headInnerText">Learning&nbsp;</span>
+    <span class="headInnerText">项目</span></h1>
+                    <div class="text-white lead headerHTML">
+            <span class="headInnerText">项目</span>
+            <span class="headInnerText">正在</span>
+            <span class="headInnerText">完善中，</span>
+            <span class="headInnerText">敬请</span>
+            <span class="headInnerText">期待</span>
+            </div>
+    </div>
+</section>
+
+
+<script>
+var textHeader = document.getElementsByClassName('headInnerText');
+for(var i0=0;i0<textHeader.length;i0++) {
+	console.log(i0);
+	var delay = 0.5+i0*0.1;
+	textHeader[i0].style.animationDelay=delay+"s";
+}
+
+</script>
+
+<!--div class="container-fluid" style="background: #292929">
+    <a href="https://SwordArt.ltd" target="_blank">
+        <img src="https://sword-1257609559.cos.ap-hongkong.myqcloud.com/logomain.png" class="img-fluid" alt="Placeholder image"></a>
+    </div--> 
+
+<hr>
+	<div class="container-fluid">
+	<div class="row">
+      <div class="col-xl-12"><div class="jumbotron">
+    <h1 class="display-4">Ar-Sr-Na Java Serverless分支</h1>
+    <p class="lead">更换方向</p>
+    <hr class="my-4">
+    <p><a href="javascript:communication();">联系方式</a></p>
+    <p class="lead">
+    	<button class="btn btn-primary btn-lg" onclick="urllayer('Ar-Sr-Na JavaServerless分支','java/docs/#/')">
+    	点击进入</button>
+    </p>
+</div></div>
+		
+		<div class="col-xl-12"><div class="jumbotron">
+    <h1 class="display-4">Ar-Sr-Na JavaScript分支</h1>
+    <p class="lead">与java完全不同</p>
+    <hr class="my-4">
+    <p><a href="javascript:communication();">联系方式</a></p>
+    <p class="lead">
+    	<button class="btn btn-primary btn-lg" onclick=
+    	"urllayer('Ar-Sr-Na js JavaServerless分支','javascript/');
+    	 ">点击进入</button></p>
+</div></div>
+
+				<div class="col-xl-12"><div class="jumbotron">
+    <h1 class="display-4">腾讯云 Serverless</h1>
+    <p class="lead">与server完全不同</p>
+    <hr class="my-4">
+    <p>权威资料</p>
+    <p class="lead"> <button class="btn btn-primary btn-lg" onclick=
+    	"urllayer('腾讯云 Serverless','https:\/\/cloud.tencent.com/edu/paths/series/Serverless')
+    	 ">点击进入</button> </p>
+</div></div>
+
+      <div class="col-xl-12"><div class="jumbotron">
+    <h1 class="display-4">WhiteNX分支</h1>
+    <p class="lead">github联系方式：
+    <a href="javascript:window.title='whiteNX github联系方式：';window.url='https://github.com/White-NX/JavaLearnProject';urllayer();" target="_blank">https://github.com/White-NX/JavaLearnProject</a></p>
+    <hr class="my-4">
+    <p>联系方式：whitenx@arsrna.com</p>
+    <p class="lead"> <button class="btn btn-primary btn-lg" href="https://java.eyling.top" onclick=
+    	"urllayer('WhiteNX分支','https:\/\/java.eyling.top');
+    	 ">点击进入</button> </p>
+</div></div>
+    
+	
+
+		
+<div class="col-xl-12">
+<div class="jumbotron">
+    <h1 class="display-4">主线</h1>
+    <p class="lead">作者：踪天朔、PexEric</p>
+    <hr class="my-4">
+    <p>联系方式：ts@arsrna.com，eric@arsrna.com</p>
+    <p class="lead"> <button class="btn btn-primary btn-lg" onclick=
+    	"urllayer('JavaLearn主线','https:\/\/pexeric.gitee.io\/2021\/02\/25\/JavaLearn\/');
+    	 ">点击进入</button> </p>
+</div>
+	  </div></div></div>
+<script src="https://www.arsrna.cn/footer.js"></script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</html>

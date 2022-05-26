@@ -1,0 +1,24 @@
+app: javalearntest
+component: scf
+inputs:
+  cls:
+    logsetId: 590cbd35-6824-40c4-bad7-dcd7f9201af0
+    topicId: 3febe78f-5f48-4623-90c3-df7960562f20
+  description: helloworld 空白模板函数
+  eip: false
+  enableRoleAuth: true
+  events: []
+  handler: example.Hello::mainHandler
+  memorySize: 128
+  name: javalearntest
+  namespace: default
+  publicAccess: true
+  region: ap-guangzhou
+  runtime: Java8
+  src: ./src
+  timeout: 3
+name: ap-guangzhou_default_javalearntest
+org: '1257609559'
+stage: dev
+# When using this configuration file for deployment, make sure the file name is "serverless.yml".
+# For more information: https://github.com/serverless-components/tencent-scf/blob/master/docs/configure.md
