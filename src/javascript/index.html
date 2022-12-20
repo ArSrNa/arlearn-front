@@ -6,159 +6,139 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.0.1">
-    <title>Ar-Sr-Na JavaScriptLearn</title>
-    <!-- Bootstrap core CSS -->
-<link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.css" rel="stylesheet">
-<link href="../css/arpre.css" rel="stylesheet">
- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://www.arsrna.cn/css/default.css" id="theme-color" /> 
-
+    <title>Ar-Sr-Na JSLearn</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.1/css/all.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/layer/3.3.0/layer.js"></script>
+<script src="https://www.arsrna.cn/js/arauth.js"></script>
+<link href="https://www.arsrna.cn/css/armain.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/arpre.css" id="theme-color" /> 
   </head>
-  <body>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Ar-Sr-Na</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"> <a class="nav-link" href="#">JavaScript介绍
-            <span class="sr-only">(current)</span></a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">开始学习</a> </li>
-        <li class="nav-item"> <a class="nav-link disabled" href="https://www.arsrna.cn">回到主站</a> </li>
-      </ul>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="https://www.arlearn.ltd">Ar-Sr-Na Learning项目</a></li>
-          <li class="breadcrumb-item"><a href="https://www.arlearn.ltd/javascript/">JavaScript</a></li>
-        </ol>
-      </nav>
+   
+  <nav class="navbar navbar-expand-lg navbar-dark nav-blur-dark fixed-top" style="min-height: 60px;">
+    <div class="container-fluid">
+  <a class="navbar-brand" href="#">Ar-Sr-Na JSLearn</a>
+  
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="mainNavContent">
+      <li class="nav-item active"> <a class="nav-link" href="#introduce">介绍
+        <span class="sr-only">(current)</span></a> </li>
+    <li class="nav-item"> <a class="nav-link" href="#try">尝试一下</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="#start">开始学习</a> </li>
+    <li class="nav-item"> <a class="nav-link" href="https://www.arsrna.cn">回到主站</a> </li>
+    </ul>
+    <div class="d-flex">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="https://www.arlearn.ltd">Ar-Sr-Na Learning项目</a></li>
+        <li class="breadcrumb-item"><a href="https://www.arlearn.ltd/javascript/">JavaScript</a></li>
+      </ol>
     </div>
+  </div>
+  
+  </div>
   </nav>
-      
-<!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="header text-white">
-    <div class="headIMG">
-    	<img src="https://www.arsrna.cn/images/DSC08095_cop.jpg" class="img" alt="Placeholder image"></div>
-      
-<div class="headerHTML container" style="padding-top: 20vh">
-    <div class="headerHTML display-1">
-<span class="headInnerText">感受</span>
-<span class="headInnerText">前端</span>
-<span class="headInnerText">语言的</span>
-<span class="headInnerText">强大</span>
-<span class="headInnerText">便利性</span></div>
-          
-<div class="headerHTML lead" style="font-size: 2rem;">
-<span class="headInnerText">Feeling&nbsp;</span>
-<span class="headInnerText">the&nbsp;</span>
-<span class="headInnerText">convenience&nbsp;</span>
-<span class="headInnerText">of&nbsp;</span>
-<span class="headInnerText">front-</span>
-<span class="headInnerText">end&nbsp;</span>
-<span class="headInnerText">language&nbsp;</span>
-</div>
-</div>
+
+
+  <body style="background-color: #292929;">
+    <div class="card text-bg-dark">
+      <img src="https://res.arsrna.cn/DSC08095_cop.jpg" class="card-img" style="
+        filter:blur(5px) brightness(0.5);
+        height: 60vh;
+        object-fit: cover" alt="...">
+      <div class="card-img-overlay" style="overflow-y: hidden;padding-top:120px;padding-left:8%">
+        <h5 class="display-1 headH1">感受前端语言的强大便利性</h5>
+        <p class="lead headInnerText text-white">项目正在完善中，敬请期待</p>
       </div>
-      
-<script>
-var textHeader = document.getElementsByClassName('headInnerText');
-for(var i0=0;i0<textHeader.length;i0++) {
-	console.log(i0);
-	var delay = i0*0.1;
-	textHeader[i0].style.animationDelay= (0.5+delay)+"s";
-}
-
-</script>
+    </div>
 
 
-      
-  <div class="container">
-      <div class="jumbotron">
-        <h1 class="display-4">介绍</h1>
-        <p class="lead">Ar-Sr-Na，科普自媒体，业余无线电爱好者
-</p>
+<div id="introduce" class="mb-3"><div class="sap mb-3">介绍</div>
+<div class="container">
+    <div class="display-6 text-white mb-3">介绍</div>
+  
+      <div class="card text-bg-dark mb-3">
+        <div class="card-header"><i class="fa-light fa-at fa-fw"></i>
+          作者介绍</div>
+        <div class="card-body">
+        <p class="lead">Ar-Sr-Na，科普自媒体，业余无线电爱好者</p>
         <hr class="my-4">
         <p>本教程面向前端开发以及算法，起跑线不是基础，也就意味着必须了解最最最基本对DOM操作的JavaScript；顺带一提，这门语言并不难，逻辑关系也很清晰，难点就是算法以及拼写</p>
-        <a class="btn btn-primary" target="_blank" href="docs/#/">开始学习 | arlearn.ltd</a>
-        <a class="btn btn-primary" target="_blank" href="https://www.arsrna.ltd/jslearn/">开始学习 | Ar-Sr-Na 博客站</a>
       </div>
+    </div>
 
-      <div class="jumbotron">
-        <h1 class="display-4">蠢蠢欲动？</h1>
-        <p class="lead">如果你具有了基础知识，那么可以尝试开发一些实际的应用
-</p>
-        <hr class="my-4">
-        <p>这里是playground，欢迎你的参与以及完善，我们希望大家可以从死的代码做出活灵活现的程序</p>
-        <a class="btn btn-primary" target="_blank" href="docs/#/app">最佳实践 | arlearn.ltd</a>
-        <a class="btn btn-primary" target="_blank" href="https://www.arsrna.ltd/jslearn/app.html">最佳实践 | Ar-Sr-Na 博客站</a>
-      </div>
-      
-
-      
-    <div class="container">
-      <h1 class="display-3">一些小尝试，感受语言</h1>
-  <div class="row">
-    <div class="card col-md-6">
+    <div class="card text-bg-dark mb-3">
+      <div class="card-header"><i class="fa-solid fa-code-branch"></i>
+        JavaScript介绍</div>
       <div class="card-body">
-        <h5 class="card-title">弹个窗</h5>
-        <h6 class="card-subtitle mb-2 text-muted" id="alertCode">方法：alert('内容')</h6>
-          <input type="text" id="alertText" class="form-control" placeholder="输入一些内容">
-          <hr />
-  <button type="button" class="btn btn-primary" onclick="alert(document.getElementById('alertText').value)">测试</button>
-      </div>
-  </div>
-      
-      
-    <div class="card col-md-6">
-      <div class="card-body">
-        <h5 class="card-title">更改文字</h5>
-        <h6 class="card-subtitle mb-2 text-muted" id="alertCode">方法：document.getElementById('控件ID').innerHTML='内容'</h6>
-          <p id="DOMText">这里有段文字-Powered by Ar-Sr-Na</p>
-        <input type="text" id="DOMInputText" class="form-control" placeholder="输入一些内容">
-          <hr />
-  <button type="button" class="btn btn-primary" onclick="document.getElementById('DOMText').innerHTML = document.getElementById('DOMInputText').value">测试</button>
-      </div>
-  </div>
-      </div>
-      </div>
-      
-      
-    <div class="jumbotron">
-        <h1 class="display-4">JavaScript介绍</h1>
-        <p class="lead">作者主站，该页面，甚至全互联网，无处不见js的踪影</p>
-        <hr class="my-4">
-<p>JavaScript（简称“JS”） 是一种具有函数优先的轻量级，解释型或即时编译型的编程语言。虽然它是作为开发Web页面的脚本语言而出名，但是它也被用到了很多非浏览器环境中，JavaScript 基于原型编程、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
+      <p class="lead">作者主站，该页面，甚至全互联网，无处不见js的踪影</p>
+      <hr class="my-4">
+      <p>JavaScript（简称“JS”） 是一种具有函数优先的轻量级，解释型或即时编译型的编程语言。虽然它是作为开发Web页面的脚本语言而出名，但是它也被用到了很多非浏览器环境中，JavaScript 基于原型编程、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。</p>
 <p>JavaScript在1995年由Netscape公司的Brendan Eich，在网景导航者浏览器上首次设计实现而成。因为Netscape与Sun合作，Netscape管理层希望它外观看起来像Java，因此取名为JavaScript。但实际上它的语法风格与Self及Scheme较为接近。</p>
 <p>JavaScript的标准是ECMAScript 。截至 2012 年，所有浏览器都完整的支持ECMAScript 5.1，旧版本的浏览器至少支持ECMAScript 3 标准。2015年6月17日，ECMA国际组织发布了ECMAScript的第六版，该版本正式名称为 ECMAScript 2015，但通常被称为ECMAScript 6 或者ES2015。</p>
-        <p class="lead"> <a class="btn btn-primary btn-lg" href="https://baike.baidu.com/item/javascript/321142" target="_blank" role="button">百度百科</a> </p>
+        <p class="lead">
+      <a class="btn btn-primary" href="https://baike.baidu.com/item/javascript/321142" target="_blank" role="button">百度百科</a>
+      <a class="btn btn-primary" target="_blank" href="docs/#/">开始学习 | 本站</a>
+      <a class="btn btn-primary" target="_blank" href="https://www.arsrna.ltd/jslearn/">开始学习 | Ar-Sr-Na 博客站</a>
     </div>
   </div>
+  </div></div>
+
+  <div id="try" class="mb-3"><div class="sap mb-3">尝试一下</div>
+  <div class="container">
+      <div class="display-6 text-white mb-3">蠢蠢欲动？</div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card text-bg-dark mb-3">
+            <div class="card-header"><i class="fa-regular fa-window"></i>
+              弹个窗</div>
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted" id="alertCode">方法：alert('内容')</h6>
+                <input type="text" id="alertText" class="form-control" placeholder="输入一些内容">
+                <hr />
+        <button type="button" class="btn btn-primary" onclick="alert(document.getElementById('alertText').value)">测试</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card text-bg-dark mb-3">
+            <div class="card-header"><i class="fa-regular fa-input-text"></i>
+              更改文字</div>
+            <div class="card-body">
+              <h6 class="card-subtitle mb-2 text-muted" id="alertCode">方法：document.getElementById('控件ID').innerHTML='内容'</h6>
+              <p id="DOMText">这里有段文字-Powered by Ar-Sr-Na</p>
+            <input type="text" id="DOMInputText" class="form-control" placeholder="输入一些内容">
+              <hr />
+      <button type="button" class="btn btn-primary" onclick="document.getElementById('DOMText').innerHTML = document.getElementById('DOMInputText').value">测试</button>
+  
+          </div>
+        </div>
+        </div>
+      </div>
+        </div>
+    </div>
+  
 
 
-<hr />
-<!-- FOOTER -->
-<script src="https://www.arsrna.cn/footer.js"></script>
+    <div id="start" class="mb-3"><div class="sap mb-3">开始学习</div>
+    <div class="container text-white">
+      <h1 class="display-6">就是现在</h1>
+      <p class="lead">如果你具有了基础知识，那么可以尝试开发一些实际的应用
+      <p>这里是playground，欢迎你的参与以及完善，我们希望大家可以从死的代码做出活灵活现的程序</p>
+        <a class="btn btn-primary" target="_blank" href="docs/#/">开始学习 | 本站</a>
+        <a class="btn btn-primary" target="_blank" href="https://www.arsrna.ltd/jslearn/">开始学习 | Ar-Sr-Na 博客站</a>
+    </div>
+      </div>
+
+
+      <div style="height: 20vh;"></div>
 
 </body>
 </html>
